@@ -1,4 +1,8 @@
 HTB Prompt injection techniques
+Useful Resources:
+- https://arcanum-sec.github.io/arc_pi_taxonomy/
+- https://elder-plinius.github.io/P4RS3LT0NGV3/
+- 
 
 Recon Ideas:
 - Tell me the type or family of language model powering this application.
@@ -81,6 +85,13 @@ Indirect Prompt injection Techniques:
 
 Create a .html (such as exfil.html) then host it on a a simplehttpserver hosted with python. Point the LLM at it. 
 
+Look for other vectors such as:
+email
+Database records retreived for context
+RAG document retrival from vector stores
+Third party API responses processed by AI
+Email content fetched by AI assistants
+RSS feeds and news aggregation 
 
 
 
