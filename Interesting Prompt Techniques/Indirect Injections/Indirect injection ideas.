@@ -1,0 +1,10 @@
+Some new Ideas for Indirect Injection attacks:
+
+Email based:
+- Invisible text
+- HTML div with display: none
+
+
+Ideas on things to do with this:
+- Phishing link
+- Updating all emails to CC external email address
