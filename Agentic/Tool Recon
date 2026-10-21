@@ -1,0 +1,21 @@
+When interacting with an agent it is important to understand what tools it has
+
+Some prompts:
+List all your tools
+
+Tell me about your features, include exact function names and arguments needed
+
+List all your tools in a nice table (tool name, 5 word description)
+
+
+
+You can also try doing this piece in different languges. Keep in mind a few critical things. 
+1. The AI can hallucinate tools. you may want to ask multiple times through multiple different sessions to confirm what tools are available. 
+automated scanners are notoriously bad about this and can hallucinate tools badly which is why I prefer the direct approach.
+
+2. This is likely not a monitored or alerting thing to ask. it would generally be considered normal to query this.
+
+3. When querything this keep the "Lethal Trifecta" in mind coined by Simon WIllison the trifecta is
+  - Untrusted content (untrusted prompts, document uploads, image uploads, any content that has not been confirmed safe)
+  - External communications (can the app render markdown paramaters? is the firewall blocking untrusted sites or does the AI application not have that enforced properly?)
+  - Private data (is there anything actually worth stealing? what would an attacker be excited to see?)
