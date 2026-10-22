@@ -19,3 +19,16 @@ automated scanners are notoriously bad about this and can hallucinate tools badl
   - Untrusted content (untrusted prompts, document uploads, image uploads, any content that has not been confirmed safe)
   - External communications (can the app render markdown paramaters? is the firewall blocking untrusted sites or does the AI application not have that enforced properly?)
   - Private data (is there anything actually worth stealing? what would an attacker be excited to see?)
+
+
+Questions for each tool:
+For every available tool, consider the following questions:
+
+- What is the tool intended to be used for?
+- What data can the tool read?
+- What data or systems can the tool modify?
+- Can the tool communicate with external systems?
+- Can the tool delete, publish, or change sensitive information?
+- Is the tool auto-approved, or does it require user confirmation?
+- Could the tool be triggered through indirect prompt injection?
+- Is a guardrail the only protection preventing misuse?
