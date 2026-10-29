@@ -619,6 +619,15 @@ const DATA = [
         { text: 'Look for MCP server endpoints or tool-calling patterns in API traffic', tool: 'burp', note: 'Maps to MCP Top 10 and Agentic Top 10' },
       ]
     },
+      {
+      title: 'Identify tools that can be influenced indirectly',
+      items: [
+        { text: 'Can the system read content from local files?', tool: 'manual' },
+        { text: 'Can the system read content from the web?', tool: 'burp' },
+        { text: 'can the system write or modify files?', tool: 'burp' },
+        { text: 'Can the system execute commands through a shell or similar mechanism?', tool: 'burp' },
+      ]
+    },
     {
       title: 'Input Processing & Encoding',
       items: [
